@@ -1,10 +1,8 @@
 # Sergey Ivanyuk
 
 ## CONTACT
-### PHONE
-+375333948663
-#### EMAIL 
-ivanyuk.cergey@mail.ru
+* +375333948663
+* ivanyuk.cergey@mail.ru
  * [Telegram](https://t.me/Sergeytwix21)
 
 ## ABOUT ME
