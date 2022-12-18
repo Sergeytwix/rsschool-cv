@@ -3,7 +3,7 @@
 ## CONTACT
 * +375333948663
 * ivanyuk.cergey@mail.ru
- * [Telegram](https://t.me/Sergeytwix21)
+* [Telegram](https://t.me/Sergeytwix21)
 
 ## ABOUT ME
 * At the moment I have been working as a 1C business analyst for more than a year, but I want to change my occupation to a more promising one. This is my goal at the moment.
@@ -26,7 +26,7 @@
 
 ## CODE EXAMPLE
 ```
-#include <iostream>
+#include 	&#10094 iostream>
 
 int main() {
     std::cout << "Hello rsschool!";

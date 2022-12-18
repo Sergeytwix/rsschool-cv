@@ -25,7 +25,8 @@ body {
 }
 
 .main {
-    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer {
@@ -53,4 +54,12 @@ body {
     text-decoration: none;
     color: red;
     font-size: 30px;
+}
+
+.section {
+    width: 50%;
+}
+
+code {
+    color: black;
 }
