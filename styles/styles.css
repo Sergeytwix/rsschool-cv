@@ -13,6 +13,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .container {
@@ -21,16 +26,21 @@ body {
 }
 
 .header {
-    border: 1px solid green;
+    background-color: #649dcc;
 }
 
 .main {
+    margin-bottom: auto;
+}
+
+.main-container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .footer {
-    border: 1px solid blue;
+    background-color: #649dcc;
+    padding: 20px;
 }
 
 .nav-list {
@@ -49,17 +59,55 @@ body {
 }
 
 .nav-link:hover{
-    padding: 0 20px;
-    line-height: 50px;
-    text-decoration: none;
     color: red;
-    font-size: 30px;
 }
 
 .section {
-    width: 50%;
+    width: calc(50% - 20px);
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    padding: 40px 80px;
+}
+
+.section-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+    text-transform: uppercase;
 }
 
 code {
     color: black;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("../assets/img/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.github:hover{
+    color: red;
 }
